@@ -42,7 +42,7 @@ nav{
             align-items: center;
         } */
 
-}
+
 header{
     background-color: #fcfff1;
     height: 60px;
@@ -178,7 +178,7 @@ div{
      width: 50px;
      position: absolute;
     left: 570px;
-    top: 3368px
+    top: 3407px;
 }
 
 .Gmail{
@@ -186,13 +186,13 @@ div{
     width: 50px;
     position: absolute;
     left: 490px;
-    top: 3507px;
+    top: 3550px;
 }
 
 
 .HTML{
     position: absolute;
-    top: 2350px;
+    top: 2380px;
     left: 110px;
     font-size: 150px;
     color:#00bf63;
@@ -200,7 +200,7 @@ div{
 }
 .CSS{
    position: absolute;
-   top:2330px;
+   top:2380px;
    left:710px;
    font-size: 160px;
    color:#00bf63;
@@ -210,7 +210,7 @@ div{
 .JS{
     position: absolute;
     font-size: 150px;
-    top: 2340px;
+    top: 2390px;
     color:#00bf63;
     left: 1300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
