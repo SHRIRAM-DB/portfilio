@@ -64,7 +64,8 @@ h2{
 .myphoto{
     height: 500px;
     width: 500px;
-    padding-left: 565px;
+    position: relative;
+    left: 570px;
 }
 
 
@@ -97,18 +98,30 @@ h2{
 }
 
 .myskills{
-    color: blue;
+    margin-top: 200px;
     font-size: 100px;
-    margin: 200px;
-    display: flex;
-    font-family:Arial, Helvetica, sans-serif; 
+    color: blue;
+    text-align: center;
+    font-weight: 700;
+    font-family:Arial, Helvetica, sans-serif;   
 }
 
-div{
-    height: 400px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.html,.css,.js{
+    position: relative;
+    top: 170px;
+    width: 350px;
+}
+
+.html{
+   margin-left: 150px;
+}
+
+.css{
+  margin-left: 150px;
+}
+
+.js{
+    margin-left: 150px;
 }
 
 .content{
@@ -157,7 +170,7 @@ div{
 }
 
 .Content{
-    margin-top: 175px;
+    margin-top: 300px;
 }
 
 .Linkedin{
@@ -165,39 +178,39 @@ div{
      width: 50px;
      position: absolute;
     left: 570px;
-    top: 3407px;
+    top: 3337px;
 }
 
 .Gmail{
-    height: 50px;
+    height: 50px;   
     width: 50px;
     position: absolute;
     left: 490px;
-    top: 3550px;
+    top: 3480px;
 }
 
 
 .HTML{
     position: absolute;
-    top: 2380px;
-    left: 110px;
-    font-size: 150px;
+    top: 2460px;
+    left: 210px;
+    font-size: 100px;
     color:#00bf63;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .CSS{
    position: absolute;
-   top:2380px;
-   left:710px;
-   font-size: 160px;
+   top: 2460px;
+   left:750px;
+   font-size: 100px;
    color:#00bf63;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .JS{
     position: absolute;
-    font-size: 150px;
-    top: 2390px;
+    font-size: 100px;
+    top: 2460px;
     color:#00bf63;
     left: 1300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
