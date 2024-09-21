@@ -30,19 +30,6 @@ nav{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
  
- @media screen and (max-width: 500px){
-         header{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-         }
-        section.h1,h2{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        } 
-
-
 header{
     background-color: #fcfff1;
     height: 60px;
