@@ -125,13 +125,22 @@ h2{
     display: flex;
     justify-content: center;
     font-size: 40px;
-    height: 150px;
+    /* height: 150px; */
     align-items: center;
     padding: 150px;
     border-radius: 30px;
     margin-left: 300px;
     margin-right: 300px;
     background-color: rgb(255, 185, 148);  
+}
+@media screen and(max-width:420px) {
+    .aboutme{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    
 }
 
 .about-container{
@@ -207,6 +216,15 @@ h2{
 .contact img{
     width: 50px;
     animation: 1.5s infinite circle;
+    
+}
+
+.Linkedin{
+    border-radius: 50%;
+}
+
+.Gmail{
+    border-radius: 10px;
 }
 
 .contact div{
@@ -234,4 +252,14 @@ h2{
      100%{
         transform: rotatey(360deg) rotate(360deg);
      }
+}
+
+@media screen and (max-width:420px) {
+    body{
+        display: flex;
+        align-items: center;
+    }
+    .container{
+        margin-top:150px;
+    }
 }
