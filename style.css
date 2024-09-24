@@ -1,5 +1,7 @@
 *{
-    margin: 0;padding: 0;box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html{
@@ -31,9 +33,9 @@ nav{
     font-size: 30px;
     top: 0px;
     right: 0px;
-    width: 4000px;
+    width: 3000px;
     justify-content: end;
-    z-index: 2;
+    z-index: 100;
     font-weight: 900;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -140,7 +142,6 @@ h2{
         align-items: center;
         height: 100%;
     }
-    
 }
 
 .about-container{
